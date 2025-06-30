@@ -15,7 +15,7 @@ import assetAssignmentRouter from './routes/assetAssignment.routes.js';
 import baseAssetRouter from "./routes/baseAsset.routes.js";
 import assetExpenditureRouter from "./routes/assetExpenditure.routes.js";
 dotenv.config();
-const allowesOrgin =['http://localhost:5173' ,'http://localhost:4173','https://splendorous-syrniki-e0dc85.netlify.app']
+const allowesOrgin =['http://localhost:5173' ,'http://localhost:4173','https://military-asset-management-system-three.vercel.app']
 const app=express();
 const port = process.env.PORT || 5000;
 app.use(express.json());
