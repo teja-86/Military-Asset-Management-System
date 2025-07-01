@@ -140,12 +140,22 @@ const Login = () => {
                   />
                 </div>
 
-                <button
+{/*                 <button
                   onClick={handlePasswordReset}
                   className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded font-semibold"
                 >
                   Reset Password
+                </button> */}
+                <button
+                type="submit"
+                className="w-full bg-gray-600 hover:bg-sky-700 text-white py-2 rounded font-semibold"
+                >
+                Login
                 </button>
+
+                <p className="text-sm text-center text-gray-500 mt-2">
+                <span className="font-semibold">Demo Admin:</span> admin@gmail.com | <span className="font-semibold">Password:</span> admin123
+                </p>
 
                 <p
                   onClick={() => setShowReset(false)}
